@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/BEBAS___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.row, .col{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+}
+/* ******** HEADER ******** */
+
+header .row, header a{
+    background-color:#ea222d;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 0.1rem 0.4rem;
+}
+
+h1 {
+    margin-left: 10rem;
+    font-family: 'bebasregular';
+}
+
+h1 span {
+    font-size: 1.8rem;
+}
+
+header li {
+    float: left;
+    margin-left: 1.2rem;
+    list-style: none;
+}
+
+header a {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+a:hover {
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+/* ******** SECTION 1 ******** */
+
+.s1 {
+    background: linear-gradient(to bottom, transparent, white), url(img/texture.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+
+.s1 h2 {
+    background-color: white;
+    color: #ea222d;
+    margin-left: 9.5rem;
+    margin-top: 10rem;
+    font-weight: bold;
+    font-size: 3.8rem;
+    padding: 10px;
+    text-align: justify;
+}
+
+.s1 h3 {
+    background-color: #ea222d;
+    color: white;
+    margin-left: 6.8em;
+    font-size: 1.4rem;
+    padding: 10px;
+    width: 88%;
+    margin-top: -47px;
+}
+
+/* ******** SECTION 2 ******** */
+
+h2 {
+    font-family: 'bebasregular';
+    color: #ea222d;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+p img {
+    height: 180px;
+}
+
+.s2 figure, .s2 p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.s2 .description {
+    text-align: center;
+    font-size: 0.9rem;
+    height: 85px;
+}
+
+.s2 .btn {
+    border: 2px solid #ea222d;
+    font-weight: bold;
+    display: block;
+    margin : auto;
+    margin-bottom: 5rem;
+}
+
+/* ******** SECTION 3 ******** */
+.s3 {
+    padding: 0;
+}
+#s3p1{
+    background-color: #ea222d;
+    color: white;
+    padding-bottom: 5rem;
+}
+#s3p1 h5{
+    margin-left: 2rem;
+}
+.s3 h2 {
+    margin-top: 5rem;
+    color: white;
+}
+#s3p1 p {
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}
+#s3p1 h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ /* partie dégradé */
+.s3p2{
+    position: relative;
+}
+
+video {
+    z-index: 0;
+    width: 100%;
+}
+.video-container{
+    padding: 0;
+    margin: 0;
+}
+.text-container {
+    background: linear-gradient(to bottom, #ea222d, transparent);
+    position: absolute;
+    top:0; left: 0; right: 0;
+}
+.table {
+    margin-top: 3rem;
+    background-color: white;
+    width: 50%;
+    align-items: center;
+    border: 6px solid #ea222d;
+    margin-left: 25%;
+}
+
+.table thead th {
+    border-bottom: 2px solid #ea222d;
+    text-align: center;
+    padding: 0.3rem;
+}
+.table tbody td {
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+/* ******** SECTION 4 ******** */
+
+.s4 {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.s4 .marvel h2 {
+    margin-left: 15rem;
+}
+.s4 label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.s4 input, .s4 textarea, .s4 select {
+    border: 1px solid black;
+}
+.s4 button {
+    border: 2px solid #ea222d;
+}
+
+.s4 iframe {
+    margin-left: 5rem;
+}
+
+/* ******** FOOTER ******** */
+
+footer {
+    background-color: #ea222d;
+    color: white;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer span {
+    margin-left: 10rem;
+}
+.icone {
+    font-size: 1.5rem;
+    margin-right: 10rem;
+}
+
